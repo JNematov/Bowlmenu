@@ -1,0 +1,1 @@
+export const HEROKU_URL ="https://bowlmenu-backend.herokuapp.com"
