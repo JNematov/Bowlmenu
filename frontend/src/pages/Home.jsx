@@ -4,7 +4,7 @@ import palov from "../images/palov_3.webp";
 
 const Home = () => (
   <div className="home-page">
-    <Slideshow slidesUrl={`http://localhost:8000/events`} />
+    <Slideshow slidesUrl={`https://bowlmenu.onrender.com/events`} />
     <div className="visit-us">
       <div className="content">
         <h2>Visit Us</h2>
