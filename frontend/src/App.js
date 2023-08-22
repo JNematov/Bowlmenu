@@ -8,7 +8,7 @@ import Menu from "./pages/Menu";
 
 function App() {
   const [menuList, setMenuList] = useState(null);
-  const menuUrl = "http://localhost:8000/menu";
+  const menuUrl = "https://bowlmenu.onrender.com/menu";
 
   const getMenu = async (menuUrl) => {
     const response = await fetch(menuUrl);
